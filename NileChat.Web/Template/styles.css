@@ -12,7 +12,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 750px;
+  width: 780px;
   background: #444753;
   border-radius: 5px;
 }
@@ -43,6 +43,7 @@ body {
 }
 .people-list ul li {
   padding-bottom: 20px;
+  list-style: none;
 }
 .people-list img {
   float: left;
@@ -204,4 +205,8 @@ body {
   content: " ";
   clear: both;
   height: 0;
+}
+
+.chat-history li {
+  list-style: none;
 }
